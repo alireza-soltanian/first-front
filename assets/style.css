@@ -1,0 +1,407 @@
+@charset "utf-8";
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: "montserrat",sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	background-color:rgba(255,255,255,1.00);
+}
+.logo{
+	cursor: pointer;
+	width: 110px;
+}
+.nav_links{
+	list-style: none;
+}
+.nav_links li{
+	display: inline-block;
+	padding: 0px 20px;
+}
+.nav_links li a{
+	transition: all 0.3s ease 0s;
+	color: black;
+	text-decoration: none;
+}
+.nav_links li a:hover{
+	color:rgba(5,95,91,1.00);
+}
+.cta {
+	padding: 9px 27px;
+	background-color: rgba(5,95,91,1.00);
+	border-radius: 50px;
+	border: none;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	color: white
+}
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    height: 800px;
+    float: left;
+    padding: 20px;
+    background-color: rgba(5,95,91,1.00);
+} 
+
+.float-child img{
+    width: 100%;
+    height: 100%;
+}
+
+.float-child .matn {
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    margin-left: 80px;
+    text-align: left;
+    color: white;
+}
+
+
+.btn-1 {
+    color: rgba(5,95,91,1.00);
+    background-color: white;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 12px;
+    padding: 18px 40px;
+    margin-top: 100px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.btn-2 {
+    color: white;
+    background-color: rgba(5,95,91,1.00);
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 50px;
+    margin-top: 100px;
+	border: 0;
+	cursor: pointer;
+}
+
+.btn-1:hover {
+    background-color: black;
+    color: white;
+}
+
+.pic2 {
+    background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.pic2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.gallery {
+    
+    float: left;
+    width: 35%;
+    margin-bottom: 90px;
+}
+
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.title1 {
+    margin-left: 70px;
+    margin-bottom: 60px;
+}
+
+.desc{
+    float: left;
+    text-align: left;
+}
+
+.desc h1{
+    color :rgba(5,95,91,1.00);
+    margin-bottom: 10px;
+}
+
+.desc h5{
+    color: gray;
+}
+
+.desc button{
+    color: rgba(5,95,91,1.00);
+    background-color: white;
+    margin-top: 20px;
+    font-size: 18px;
+    margin-right: 150px;
+    font-weight: 700;
+	border: 0px;
+	cursor: pointer;
+}
+
+.float-container2 {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child2 {
+    width: 50%;
+    height: 800px;
+    float: left;
+    padding: 20px;
+    background-color: white;
+} 
+
+.float-child2 img{
+    width: 100%;
+    height: 100%;
+    margin-left: 45px;
+}
+
+.float-child2 .matn2 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgba(5,95,91,1.00);
+}
+.btn-3 {
+    color: rgba(5,95,91,1.00);
+    color: white;
+    background-color: rgba(5,95,91,1.00);
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 40px;
+    padding: 18px 40px;
+    margin-top: 100px;
+    box-shadow: 10%;
+	
+}
+.btn-3 a{
+	color:white;
+	cursor: pointer;
+}
+
+
+.float-container3 {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child3 {
+    width: 50%;
+    height: 600px;
+    float: left;
+    padding: 20px;
+    background-color: white;
+
+} 
+
+
+.float-child3 .matn2 {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    margin-left: 80px;
+    text-align: left;
+    color: rgba(5,95,91,1.00);
+}
+
+.float-child3 .matn4 {
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+    margin-left: 45px;
+    text-align: left;
+    color: rgba(5,95,91,1.00);
+}
+
+.float-child3 .matn4 h5 {
+    color: gray;
+}
+
+.float-child3 .matn4 h1 {
+    color: rgba(5,95,91,1.00);
+    margin-bottom: 5px;
+}
+
+.float-child3 .aks3 img {
+    width: 30%;
+    height: 30%;
+}
+
+.float-container3 .matn5 h3{
+    color: rgba(5,95,91,1.00);
+    font-size: 28px;
+}
+
+.float-container3 .matn5 h5{
+    color: gray;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.float-container3 .matn6 h3{
+    color: rgba(5,95,91,1.00);
+    font-size: 28px;
+    /* margin-bottom: 12px; */
+}
+
+.float-container3 .matn6 h5{
+    color: gray;
+}
+.grid{
+    display: grid;
+    height: 600px;
+    grid-template-rows: repeat(2,250px);
+    grid-template-columns: repeat(2,2fr);
+}
+.banner {
+    background-position: center;
+	background-size: cover;
+	position: relative;
+    
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.float-container4 {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child4 {
+    width: 50%;
+    height: 408px;
+    float: left;
+    padding: 20px;
+    background-color: white;
+    font-size: 11px;
+} 
+footer{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: rgba(5,95,91,1.00);
+    background-color:rgba(251,251,251,1.00);
+}
+.footer > *{
+    flex: 1 100%;
+}
+.footer-left{
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+.footer-left img{
+    width: 17%;
+	height: 15%;
+	margin-bottom: 15px
+}
+h2{
+    font-weight: 600;
+    font-size: 17px;
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer li{
+    line-height: 2em;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer-right{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow:row wrap;
+}
+.footer-right > *{
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+.box a{
+    color:#999;
+}
+.footer-buttom{
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+}
+.footer-left p{
+    padding-right: 20%;
+    color: #999;
+}
+.socials a{
+	height: 40px;
+	widows: 40px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.socials a i{
+    color: rgba(131,131,131,1.00);
+    padding: 40px 1px;
+    font-size: 30px;
+	margin-right: 20px;
+}
+@media screen and (min-width:600px) {
+    .footer-right > *{
+        flex: 1;
+    }
+    .footer-left{
+        flex: 1 0px;
+    }
+    .footer-right{
+        flex: 2 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
