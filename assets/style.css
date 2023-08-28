@@ -100,18 +100,6 @@ header {
     background-color: black;
     color: white;
 }
-
-.pic2 {
-    background-position: center;
-	background-size: cover;
-	position: relative;
-}
-
-.pic2 img{
-    width: 100%;
-    height: 100%;
-}
-
 .gallery {
     
     float: left;
