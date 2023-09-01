@@ -44,12 +44,13 @@ header {
 	transition: all 0.3s ease 0s;
 	color: white
 }
-
+.cta:hover{
+    background-color: rgb(20, 126, 126)
+}
 .float-container {
     border: 3px solid #fff;
     padding: 20px;
 }
-
 .float-child {
     width: 50%;
     height: 800px;
@@ -57,12 +58,29 @@ header {
     padding: 20px;
     background-color: rgba(5,95,91,1.00);
 } 
-
+.hey{
+    font-size: 25px;
+    margin-top: 100px;
+    font-weight: 900; 
+    margin-bottom: 30px;
+}
+.hey2{
+    font-size: 30px;
+}
+.sf{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 40px; 
+    width: 85%;
+    color: #c4c4c4;
+}
+.ui{
+    padding-top: 10px;
+}
 .float-child img{
     width: 100%;
     height: 100%;
 }
-
 .float-child .matn {
     width: 100%;
     height: 100%;
@@ -108,10 +126,23 @@ header {
     padding-top: 15px;
     font-size: 19px;
 }
+.Portfolio{
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: rgba(5,95,91,1.00);
+}
+.Explore{
+    margin-bottom: 9px;
+    color: gray;
+    font-size: 20px;
+}
+.vitae{
+    color: gray;
+    font-size: 20px; 
+}
 .fa-check-circle{
     color:rgba(5,95,91,1.00);
-    font-size: 30px;
-    
+    font-size: 35px;
 }
 .fa-check-circle p{
     font-size: 20px;
@@ -126,7 +157,6 @@ header {
     display:flex;
     align-items: center;
 }
-
 .m2{
     margin-top: 30px;
     padding-left: 10px;
@@ -153,7 +183,7 @@ header {
     color: rgba(5,95,91,1.00);
 }
 .m4{
-    margin-top: 30px;
+    margin-top: 21px;
     padding-left: 10px;
     font-size: 20px;
     text-align: left;
@@ -187,7 +217,6 @@ header {
 	cursor: pointer;
 	transition: all 0.3s ease 0s;
 }
-
 .btn-2 {
     color: white;
     background-color: rgba(5,95,91,1.00);
@@ -198,49 +227,67 @@ header {
 	border: 0;
 	cursor: pointer;
 }
-
 .btn-1:hover {
-    background-color: black;
+    background-color: rgb(20, 126, 126);
     color: white;
 }
+.galleryd{
+    width: 100%;
+    height: 100%;
+}
 .gallery {
-    
+    margin-left: 70px;
     float: left;
     width: 35%;
     margin-bottom: 90px;
 }
-
-
+.desc h5{
+    margin-bottom: 5px;
+    color: gray;
+}
 .gallery img {
     width: 100%;
     height: auto;
+    width: 600px;
+    height: 400px;
 }
-
+.gallery2{
+    margin-bottom: 80px;
+    margin-right: 70px;
+    width: 35%;
+    float: right;
+}
+.gallery2 img{
+    width: 530px;
+    height: 400px;
+}
+.gallery3{
+    margin-right: 70px;
+    float: right;
+    width: 35%;
+    margin-bottom: 90px;
+}
+.gallery3 img{
+    width: 530px;
+    height: 400px;
+}
 .desc {
     padding: 15px;
     text-align: center;
 }
-
 .title1 {
     margin-left: 70px;
     margin-bottom: 60px;
     clear: both;
 }
-
 .desc{
     float: left;
     text-align: left;
 }
-
 .desc h1{
     color :rgba(5,95,91,1.00);
     margin-bottom: 10px;
 }
-
-.desc h5{
-    color: gray;
-}
-
 .desc button{
     color: rgba(5,95,91,1.00);
     background-color: white;
@@ -251,34 +298,76 @@ header {
 	border: 0px;
 	cursor: pointer;
 }
-
 .float-container2 {
-    border: 3px solid #fff;
     padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
-
 .float-child2 {
     width: 50%;
-    height: 800px;
     float: left;
-    padding: 20px;
     background-color: white;
 } 
-
 .float-child2 img{
-    width: 100%;
-    height: 100%;
-    margin-left: 45px;
+    width: 86%;
+    height: 70%;
+    margin-left: 49px;
+    float: left;
 }
-
-.float-child2 .matn2 {
+.float-child2 button{
+    cursor: pointer;
+}
+.f-child2 .matn2 {
     width: 100%;
     height: 100%;
-    text-align: center;
+    text-align: left;
     color: rgba(5,95,91,1.00);
+    float: right;
+    padding-bottom: 174px;
+    padding-left: 58px;
+}
+.f-child2{
+    width: 50%;
+    float: right;
+    background-color: white;
+}
+.f-child2 .matn2 h1{
+    font-size: 60px;
+    text-align: left;
+}
+.Specializ {
+    color: gray;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: left;
+}
+.Specializ2{
+    margin-top: 10%;
+}
+.marketing{
+    margin-top: 20px;
+    display: flex; 
+}
+.marketing2{
+    color: gray;  
+    padding: 15px 15px;
+}
+.marketing3{
+    text-align: center;
+    color: rgba(5,95,91,1.00); 
+    border-radius: 50px;
+    background-color: aqua; 
+    padding-left: 10px;
+    padding-right: 10px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.marketing4{
+    padding: 15px 15px;
+    margin-left: 100px;
 }
 .btn-3 {
-    color: rgba(5,95,91,1.00);
     color: white;
     background-color: rgba(5,95,91,1.00);
     font-size: 25px;
@@ -286,32 +375,25 @@ header {
     border-radius: 40px;
     padding: 18px 40px;
     margin-top: 100px;
-    box-shadow: 10%;
-	
+    cursor: pointer;	
 }
 .btn-3 a{
 	color:white;
 	cursor: pointer;
 }
-
-
+.btn-3:hover{
+    background-color: rgb(112, 58, 141)
+}
 .float-container3 {
-    /* border: 3px solid #fff;
-    padding: 20px; */
     clear: both;
 }
-
 .float-child3 {
     width: 50%;
     height: 600px;
     float: left;
     padding: 20px;
     background-color: white;
-    /* clear: both; */
-
 } 
-
-
 .float-child3 .matn2 {
     width: 100%;
     height: 100%;
@@ -320,7 +402,6 @@ header {
     text-align: left;
     color: rgba(5,95,91,1.00);
 }
-
 .float-child3 .matn4 {
     width: 100%;
     height: 100%;
@@ -329,26 +410,21 @@ header {
     text-align: left;
     color: rgba(5,95,91,1.00);
 }
-
 .float-child3 .matn4 h5 {
     color: gray;
 }
-
 .float-child3 .matn4 h1 {
     color: rgba(5,95,91,1.00);
     margin-bottom: 5px;
 }
-
 .float-child3 .aks3 img {
     width: 30%;
     height: 30%;
 }
-
 .float-container3 .matn5 h3{
     color: rgba(5,95,91,1.00);
     font-size: 28px;
 }
-
 .float-container3 .matn5 h5{
     color: gray;
     margin-bottom: 50px;
@@ -358,7 +434,6 @@ header {
     color: rgba(5,95,91,1.00);
     font-size: 28px;
 }
-
 .float-container3 .matn6 h5{
     color: gray;
 }
@@ -368,21 +443,127 @@ header {
     grid-template-rows: repeat(2,250px);
     grid-template-columns: repeat(2,2fr);
 }
+.grid-item2 img{
+    width: 230px;
+    height: 200px;
+}
+.grid-item4 img{
+    width: 230px;
+    height: 200px;
+}
+.x2{
+    width: 5px;
+    height: 5px;
+   
+}
+.x2 p{
+    display: inline-flex;
+}
 .x1 {
    background-color:rgba(5,95,91,1.00);
    width: 100%;
-   height: 1170px;
+   height: 555px;
+   clear: both;
+   display: flex;
+   flex-flow: column;
+   flex-direction: row;
 }
+.x2 img{
+    width: 81px;
+    height: 75px;
+    margin-top: 178px;
+    margin-left: 172px;
+}
+.tit-x2{
+    font-size: 30px;
+    margin-top: 177px;
+    margin-left: 284px;
+    color: rgb(224, 224, 224);
+}
+.tit-x3{
+    padding-left: 171px;
+    font-size: 22px;
+    color: white;
+    width: fit-content;
+    margin-top: 108px;
+}
+.l{
+    font-size: 160px;
+    color: rgb(7, 141, 134);
+    width: 90px;
+    height: 90px;
+    margin-top: 126px;
+    margin-left: 66px;
+}
+.leftd{
+    width: 40%;
+    height:555px;
+}
+.quote{
+    width: 20%;
+    height:555px;
+}
+.faq{
+    clear: both;
+}
+.faq2{
+    margin-top: 150px;
+    text-align: center;
+}
+.faq2 h4{
+    font-size: 34px;
+    background: -webkit-linear-gradient(#0a5d56, #07ecf0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.star{
+    font-size: 19px;
+    color: #ffae00;
+    margin-top: 164px;
+}
+.managed{
+    font-size: 19px;
+    color: rgb(224, 224, 224);
+    margin-top: 27px;
+}
+.Mohammad{
+    font-size: 20px;
+    margin-top: 40px;
+    color: rgb(224, 224, 224);
+}
+.ask4{
+    margin-top: 20px
+}
+.ask4 p{
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 13px;
+}
+.ask4 h5{
+    color: gray;
+}
+.ask6 h1{
+    margin-bottom: 5px; 
+    margin-top: 20px;
+}
+.ask2 h1{
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.ask5{
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
 .float-container4 {
     border: 3px solid #fff;
     padding: 20px;
 }
-
 .float-child4 {
     width: 50%;
     height: 408px;
     float: left;
-    padding: 20px;
+    padding: 84px;
     background-color: white;
     font-size: 11px;
 } 
